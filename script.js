@@ -328,7 +328,7 @@ const alphabet = {
 let audio = "";
 function playSound(num) {
     audio = new Audio(alphabet[num].soundclip);
-    audio.volume = .4;
+    audio.volume = .8;
     audio.play();
     initialBox.textContent = alphabet[num].initial;
     middleBox.textContent = alphabet[num].middle;
