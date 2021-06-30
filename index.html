@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Persian Assist</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="alphabet.js"></script> -->
+</head>
+
+<body>
+    <div class="header">
+        <img src="assets/images/iran.jpg" alt="Iran flag">
+        <h1 class="english">Persian Alphabet:</h1>
+        <h1 class="persian">فارسی الفبا</h1>
+    </div>
+    <div class="content">
+
+        <div id="mainMessage">
+            <div class="slot">
+                <label class="smol">final: </label>
+                <div class="finalBox"></div>
+            </div>
+            <div class="slot">
+                <label class="smol">middle: </label>
+                <div class="middleBox"></div>
+            </div>
+            <div class="slot">
+                <label class="smol">initial: </label>
+                <div class="initialBox"></div>
+            </div>
+        </div>
+        <div id="alphaBox">
+            <div class="row">
+                <div class="clickBox" title="alef" onclick="playSound(1)">
+                    <p class="letter">ا</p>
+                </div>
+                <div class="clickBox" title="be" onclick="playSound(2)">
+                    <p class="letter">ب</p>
+                </div>
+                <div class="clickBox" title="pe" onclick="playSound(3)">
+                    <p class="letter">پ</p>
+                </div>
+                <div class="clickBox" title="te" onclick="playSound(4)">
+                    <p class="letter">ت</p>
+                </div>
+                <div class="clickBox" title="se" onclick="playSound(5)">
+                    <p class="letter">ث</p>
+                </div>
+                <div class="clickBox" title="jim" onclick="playSound(6)">
+                    <p class="letter">ج</p>
+                </div>
+                <div class="clickBox" title="che" onclick="playSound(7)">
+                    <p class="letter">چ</p>
+                </div>
+                <div class="clickBox" title="he" onclick="playSound(8)">
+                    <p class="letter">ح</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="clickBox" title="khe" onclick="playSound(9)">
+                    <p class="letter">خ</p>
+                </div>
+                <div class="clickBox" title="dal" onclick="playSound(10)">
+                    <p class="letter">د</p>
+                </div>
+                <div class="clickBox" title="zal" onclick="playSound(11)">
+                    <p class="letter">ذ</p>
+                </div>
+                <div class="clickBox" title="re" onclick="playSound(12)">
+                    <p class="letter">ر</p>
+                </div>
+                <div class="clickBox" title="ze" onclick="playSound(13)">
+                    <p class="letter">ز</p>
+                </div>
+                <div class="clickBox" title="zhe" onclick="playSound(14)">
+                    <p class="letter">ژ</p>
+                </div>
+                <div class="clickBox" title="sin" onclick="playSound(15)">
+                    <p class="letter">س</p>
+                </div>
+                <div class="clickBox" title="shin" onclick="playSound(16)">
+                    <p class="letter">ش</p>
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="clickBox" title="sad" onclick="playSound(17)">
+                    <p class="letter">ص</p>
+                </div>
+                <div class="clickBox" title="zad" onclick="playSound(18)">
+                    <p class="letter">ض</p>
+                </div>
+                <div class="clickBox" title="ta" onclick="playSound(19)">
+                    <p class="letter">ط</p>
+                </div>
+                <div class="clickBox" title="za" onclick="playSound(20)">
+                    <p class="letter">ظ</p>
+                </div>
+                <div class="clickBox" title="'ain" onclick="playSound(21)">
+                    <p class="letter">ع</p>
+                </div>
+                <div class="clickBox" title="ghain" onclick="playSound(22)">
+                    <p class="letter">غ</p>
+                </div>
+                <div class="clickBox" title="fe" onclick="playSound(23)">
+                    <p class="letter">ف</p>
+                </div>
+                <div class="clickBox" title="qaf" onclick="playSound(24)">
+                    <p class="letter">ق</p>
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="clickBox" title="kaf" onclick="playSound(25)">
+                    <p class="letter">ک</p>
+                </div>
+                <div class="clickBox" title="gaf" onclick="playSound(26)">
+                    <p class="letter">گ</p>
+                </div>
+                <div class="clickBox" title="lam" onclick="playSound(27)">
+                    <p class="letter">ل</p>
+                </div>
+                <div class="clickBox" title="mim" onclick="playSound(28)">
+                    <p class="letter">م</p>
+                </div>
+                <div class="clickBox" title="nun" onclick="playSound(29)">
+                    <p class="letter">ن</p>
+                </div>
+                <div class="clickBox" title="vav" onclick="playSound(30)">
+                    <p class="letter">و</p>
+                </div>
+                <div class="clickBox" title="he" onclick="playSound(31)">
+                    <p class="letter">ه</p>
+                </div>
+                <div class="clickBox" title="ye" onclick="playSound(32)">
+                    <p class="letter">ی</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">© America Jones 2021- with special thanks to Arghavan Navadeh for the sound files ♥</div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
