@@ -77,11 +77,12 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 5px;
+    margin: 2px;
     padding: 5px;
+    padding-bottom: 20px;
     width: 90px;
     font-size: 8vmin;
-    border-radius: 10px;
+    border-radius: 7px;
     box-shadow: 0 3px 4px rgba(0,0,0,.16), 0 3px 4px rgba(110,80,20,.4),
     inset 0 -2px 3px 1px rgba(139,66,8,1),
     inset 0 -1px 1px 3px rgba(250,227,133,1);
@@ -115,5 +116,9 @@ h1 {
     }
     #mainMessage {
         font-size: 120px;
+    }
+    .clickBox {
+        margin: 5px;
+        border-radius: 10px;
     }
 }
