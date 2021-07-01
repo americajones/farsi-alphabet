@@ -325,7 +325,7 @@ const alphabet = {
         "soundclip": "./assets/sounds/ye.mp3"
     }
 }
-let audio = "";
+
 function playSound(num) {
     audio = new Audio(alphabet[num].soundclip);
     audio.volume = .8;
