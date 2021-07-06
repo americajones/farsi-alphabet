@@ -3,6 +3,8 @@ const finalBox = document.querySelector('.finalBox');
 const middleBox = document.querySelector('.middleBox');
 const initialBox = document.querySelector('.initialBox');
 let mainMessage = document.querySelector('#mainMessage');
+let title = document.querySelector('.english');
+let flag = document.querySelector('#flag');
 const alphabet = {
     "1": {
         "letter": "ا",
@@ -325,7 +327,9 @@ const alphabet = {
         "soundclip": "./assets/sounds/ye.mp3"
     }
 }
-
+flag.addEventListener('click', function () {
+    window.location.reload();
+})
 function playSound(num) {
     audio = new Audio(alphabet[num].soundclip);
     audio.volume = .8;
@@ -333,6 +337,7 @@ function playSound(num) {
     initialBox.textContent = alphabet[num].initial;
     middleBox.textContent = alphabet[num].middle;
     finalBox.textContent = alphabet[num].final;
+    title.textContent = alphabet[num].name;
 };
 
 
